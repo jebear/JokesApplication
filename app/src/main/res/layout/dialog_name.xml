@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/etFirstName"
+        style="@style/CustomStyleTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/first_name"
+        android:inputType="text"
+        android:layout_margin="15dp"/>
+
+    <EditText
+        android:id="@+id/etLastName"
+        style="@style/CustomStyleTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/last_name"
+        android:inputType="text"
+        android:layout_margin="15dp"/>
+
+    <Button
+        android:id="@+id/btnGo"
+        style="@style/CustomStyleButtonCurveBlue"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:text="@string/go"
+        android:layout_gravity="right"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>

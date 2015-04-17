@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grey" >
+
+    <Button
+        android:id="@+id/btnName"
+        style="@style/CustomStyleButtonCurveOrange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="10dp"
+        android:text="@string/name_joke" />
+
+    <Button
+        android:id="@+id/btnRandom"
+        style="@style/CustomStyleButtonCurveOrange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnName"
+        android:layout_alignLeft="@+id/btnName"
+        android:layout_marginBottom="10dp"
+        android:text="@string/random_joke" />
+
+    <Button
+        android:id="@+id/btnCategory"
+        style="@style/CustomStyleButtonCurveOrange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnName"
+        android:layout_below="@+id/btnName"
+        android:layout_marginBottom="10dp"
+        android:text="@string/category_joke" />
+
+</RelativeLayout>
